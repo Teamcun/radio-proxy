@@ -1,15 +1,15 @@
 {
   "name": "radio-proxy",
   "version": "1.0.0",
-  "main": "radio-proxy.js",
-  "type": "module", // Solo para import/export
+  "main": "index.js",
   "scripts": {
-    "start": "node radio-proxy.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "cors": "^2.8.5",
     "express": "^4.18.2",
-    "request": "^2.88.2"
+    "cors": "^2.8.5",
+    "node-fetch": "^3.3.2"
   },
-  "license": "MIT"
+  "type": "module"
 }
+
