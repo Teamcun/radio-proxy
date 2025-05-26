@@ -5,7 +5,7 @@ import cors from 'cors';
 const app = express();
 app.use(cors());
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 app.get('/', async (req, res) => {
   const radioUrl = 'https://uk2freenew.listen2myradio.com/live.mp3?typeportmount=s1_32167_stream_195287354';
